@@ -508,7 +508,6 @@ function! AutoSetFileHead()
     if &filetype == 'python'
         call setline(1, "\#!/usr/bin/env python")
         call append(1, "\# coding: utf-8")
-        call append(1, "\# author: Zhang Yindong")
     endif
 
     normal G
