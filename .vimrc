@@ -418,8 +418,6 @@ noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 
-execute pathogen#infect()
-
 " Toggles between the active and last active tab "
 " The first tab is always 1 "
 let g:last_active_tab = 1
